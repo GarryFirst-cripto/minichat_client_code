@@ -1,0 +1,14 @@
+.imageWrapper {
+   margin-bottom: 10px
+}
+  
+:global(.ui.image).image {
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+  
+:global(.ui.modal).editForm {
+  left: 30vw;
+  width: 40vw;
+}

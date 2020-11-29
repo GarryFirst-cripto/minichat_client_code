@@ -1,0 +1,39 @@
+.imageWrapper {
+  margin-bottom: 10px
+}
+
+:global(.ui.image).image {
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+:global(.ui.modal).modalForm {
+  left: 25vw;
+  width: 50vw;
+}
+
+:global(.ui.label).modalLabel {
+  width: 22%;
+  float: left;
+  font-size: 17px;
+  text-align: center;
+}
+
+:global(.ui.card).modalCard {
+  width: 100%;
+}
+
+.modalInput {
+  width: 77%;
+  float: left;
+}
+
+.modalDrop {
+  width: 77%;
+  float: left;
+}
+
+.modalClear {
+  clear: both;
+}

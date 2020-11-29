@@ -1,0 +1,22 @@
+:global(.ui.modal).infoForm {
+  left: 20vw;
+  width: 60vw;
+}
+
+:global(.ui.card).infoTopCard {
+  margin: 1%;
+  width: 98%;
+}
+
+#infoCard {
+  margin: 2%;
+  width: 46%;
+}
+
+.infoLabel {
+  margin-left: 15px;
+}
+
+.infoEvent {
+  height: 48px;
+}

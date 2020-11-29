@@ -1,0 +1,23 @@
+:global(.ui.card).arhivCard {
+  width: 100%;
+  margin-top: 20px;
+  padding: 3vh;
+  text-align: centre;
+  font-size: 22px;
+  font-bolt: true;
+}
+
+.threadContent {
+  position: absolute;
+  left: 16vw;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.addPostForm {
+  margin-top: 20px;
+}
+
+.toolbar {
+  margin: 20px 0;
+}

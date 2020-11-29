@@ -1,0 +1,99 @@
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+}
+
+@keyframes modal-anime {
+  from { top: -50px; opacity: 0 }
+  to { top: 20vh; opacity: 1 }
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 1.75rem auto;
+  border-radius: 3px;
+  left: 30vw;
+  top: 20vh;
+  width: 40vw;
+  height: 15vh;
+  animation: modal-anime 1s;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 70%;
+  width: 100%;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 30%;
+  width: 100%;
+}
+
+.modal-label {
+  position: relative;
+  float: left;
+  width: 76%;
+  font-family: "Times New Roman";
+  font-size: 22px;
+  text-align: center;
+}
+
+.modal-img {
+  position: relative;
+  width: 10%;
+  float: left;
+  margin: 2%;
+}
+
+.modal-button {
+  position: relative;
+  float: left;
+  width: 160px;
+  min-height: 25px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-image-source: linear-gradient(to bottom right, #26d62e, #259013);
+  border-image-slice: 1;
+  background: linear-gradient(to bottom, #86ffaf, #29f732) #fff8fd;
+  box-shadow: 5px 5px 15px rgba(135, 168, 196, 0.5);
+  margin: 5px;
+  word-wrap: break-word;
+  font: 18px Roboto;
+  font-weight: bold;
+}
+.modal-button:hover {
+  border: green 2px solid;
+}
+.modal-button:active {
+  padding-left: 10px;
+  background: linear-gradient(to top, #65f9db, #78e4d9) #fff8fd;
+}

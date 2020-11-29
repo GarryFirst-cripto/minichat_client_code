@@ -1,0 +1,11 @@
+
+:global(.ui.modal).comentsForm {
+  position: absolute;
+  top: 5vh;
+  left: 35vw;
+  width: 30vw;
+  height: 80vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+

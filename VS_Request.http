@@ -1,0 +1,77 @@
+### GET Request
+GET http://Demopostgres-env.eba-3n4gpmws.us-east-2.elasticbeanstalk.com/users
+content-type: application/json
+
+### GET Request
+GET http://Nodeapp-env.eba-nh4tjgf9.us-east-2.elasticbeanstalk.com/users/b3e10586-bd29-4d50-8b54-15252b207892
+content-type: application/json
+
+### POST Request
+POST http://minichatserver-env.eba-j642xphg.us-east-2.elasticbeanstalk.com/api/auth/login
+content-type: application/json
+
+{
+    "email": "vist_01@ukr.net",
+    "password": "111_111"
+}
+
+### PUT Request
+PUT http://localhost:3000/users/6585ed5c-5382-454f-bf64-334334f05f43
+content-type: application/json
+
+{
+    "username": "Tommy Tommy",
+    "password": "22222"
+}
+
+### DELETE Request
+DELETE http://localhost:3000/users/23564-shhe-17sghe-dfw-9000
+content-type: application/json
+
+### GET Request (posts)
+GET http://Nodeapp-env.eba-nh4tjgf9.us-east-2.elasticbeanstalk.com/posts
+content-type: application/json
+
+### GET Request
+GET http://localhost:3000/posts/4499cdfc-d081-48ee-94a3-5e99b114926f
+content-type: application/json
+
+### POST Request
+POST http://localhost:3000/posts
+content-type: application/json
+
+{
+    "userId": "35f637e2-578e-4896-86b9-0af24451f612",
+    "body": "kjshdkjshdfkjashdfgkajhsdgfkjahsgdfkjhasd"
+}
+
+### PUT Request
+PUT http://localhost:3000/posts
+content-type: application/json
+
+{
+    "id": "24a1a367-efcd-4f79-ad7d-f225eae92769",
+    "body": "aaaaa aaaaa ssss sssssss ddddddd dddddd"
+}
+
+### DELETE Request
+DELETE http://localhost:3000/posts/4499cdfc-d081-48ee-94a3-5e99b114926f
+content-type: application/json
+
+
+### GET Request (comments)
+GET http://Nodeapp-env.eba-nh4tjgf9.us-east-2.elasticbeanstalk.com/comments
+content-type: application/json
+
+### GET Request
+GET http://localhost:3000/comments/213ba2f7-1cde-4389-a6a1-097db6d72087
+content-type: application/json
+
+### PUT Request
+PUT http://localhost:3000/comments
+content-type: application/json
+
+{
+    "id": "213ba2f7-1cde-4389-a6a1-097db6d72087",
+    "body": "Tommy Tommy Tommy Tommy"
+}

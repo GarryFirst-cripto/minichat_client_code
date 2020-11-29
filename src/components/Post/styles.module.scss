@@ -1,0 +1,16 @@
+:global(.ui.basic.label).toolbarBtn {
+  border: none
+}
+
+:global(.ui.card).postCard {
+  width: 100%;
+}
+
+.imageWrapper {
+  margin-bottom: 10px
+}
+
+:global(.ui.image).postImage {
+  width: -moz-fit-content;
+  width: auto;
+}

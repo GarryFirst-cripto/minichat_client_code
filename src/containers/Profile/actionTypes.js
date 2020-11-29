@@ -1,0 +1,1 @@
+export const SET_USER = 'PROFILE_ACTION:SET_USER';
