@@ -16,6 +16,17 @@ import profileReducer from './containers/Profile/reducer';
 
 export const history = createBrowserHistory();
 
+const loadStatePath = () => {
+  try {
+      const appPath = window.localStorage.getItem('app_state');
+      if (appPath) history.push(appPath);
+  } catch (err) {
+      
+  }
+};
+
+loadStatePath();
+
 const initialState = {};
 
 const middlewares = [
@@ -44,5 +55,18 @@ const store = createStore(
   initialState,
   composedEnhancers
 );
+
+const saveStatePath = (state) => {
+  try {
+      const appPath = state.router.location.pathname;
+      window.localStorage.setItem('app_state', appPath);
+  } catch (err) {
+      // Log errors here, or ignore
+  }
+};
+
+store.subscribe(() => {
+  saveStatePath(store.getState());
+});
 
 export default store;
