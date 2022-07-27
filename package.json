@@ -26,7 +26,7 @@
     "nodemailer": "^6.4.8",
     "nodemailer-smtp-transport": "^2.7.4",
     "prop-types": "15.7.2",
-    "query-string": "6.12.1",
+    "query-string": "6.14.1",
     "react": "16.13.1",
     "react-app-rewired": "^2.1.6",
     "react-dom": "16.13.1",
